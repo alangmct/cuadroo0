@@ -1,0 +1,235 @@
+<html>
+<head>
+  <style>
+    table {
+      width: 800px;
+      height: 800px;
+      border-collapse: collapse;
+      table-layout: fixed;
+    }
+    td {
+      width: calc(800px / 6);
+      height: calc(800px / 6);
+      border: 1px solid black;
+      text-align: center;
+      overflow: hidden;
+      position: relative;
+    }
+    td a {
+      display: block;
+      width: 100%;
+      height: 100%;
+      position: relative;
+    }
+    td img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  </style>
+</head>
+<body>
+  <table>
+    <tbody>
+      <!-- Fila 1 -->
+      <tr>
+        <!-- Link 1: Video A -->
+        <td>
+          <a href="https://www.youtube.com/watch?v=xGI3ky4kLwE" target="_blank">
+            <img src="https://loremflickr.com/800/800/corridos,tumbados?lock=1" alt="img 1">
+          </a>
+        </td>
+        <!-- Link 2: Video B -->
+        <td>
+          <a href="https://www.youtube.com/watch?v=bvs-W9fUMjA" target="_blank">
+            <img src="https://loremflickr.com/800/800/corridos,tumbados?lock=2" alt="img 2">
+          </a>
+        </td>
+        <!-- Link 3: Video C -->
+        <td>
+          <a href="https://www.youtube.com/watch?v=rIASYajEwcU" target="_blank">
+            <img src="https://loremflickr.com/800/800/corridos,tumbados?lock=3" alt="img 3">
+          </a>
+        </td>
+        <!-- Link 4: Video D (celda con colspan="2") -->
+        <td colspan="2">
+          <a href="https://www.youtube.com/watch?v=hkrBbBJg3S4" target="_blank">
+            <img src="https://loremflickr.com/800/800/corridos,tumbados?lock=4" alt="img 4">
+          </a>
+        </td>
+        <!-- Link 5: Video A -->
+        <td>
+          <a href="https://www.youtube.com/watch?v=xGI3ky4kLwE" target="_blank">
+            <img src="https://loremflickr.com/800/800/corridos,tumbados?lock=5" alt="img 6">
+          </a>
+        </td>
+      </tr>
+      <!-- Fila 2 -->
+      <tr>
+        <!-- Link 6: Video B -->
+        <td>
+          <a href="https://www.youtube.com/watch?v=bvs-W9fUMjA" target="_blank">
+            <img src="https://loremflickr.com/800/800/corridos,tumbados?lock=6" alt="img 7">
+          </a>
+        </td>
+        <!-- Link 7: Video C -->
+        <td>
+          <a href="https://www.youtube.com/watch?v=rIASYajEwcU" target="_blank">
+            <img src="https://loremflickr.com/800/800/corridos,tumbados?lock=7" alt="img 8">
+          </a>
+        </td>
+        <!-- Link 8: Video D -->
+        <td>
+          <a href="https://www.youtube.com/watch?v=hkrBbBJg3S4" target="_blank">
+            <img src="https://loremflickr.com/800/800/corridos,tumbados?lock=8" alt="img 9">
+          </a>
+        </td>
+        <!-- Link 9: Video A -->
+        <td>
+          <a href="https://www.youtube.com/watch?v=xGI3ky4kLwE" target="_blank">
+            <img src="https://loremflickr.com/800/800/corridos,tumbados?lock=9" alt="img 10">
+          </a>
+        </td>
+        <!-- Link 10: Video B (rowspan="2") -->
+        <td rowspan="2">
+          <a href="https://www.youtube.com/watch?v=bvs-W9fUMjA" target="_blank">
+            <img src="https://loremflickr.com/800/800/corridos,tumbados?lock=10" alt="img 11">
+          </a>
+        </td>
+        <!-- Link 11: Video C -->
+        <td>
+          <a href="https://www.youtube.com/watch?v=rIASYajEwcU" target="_blank">
+            <img src="https://loremflickr.com/800/800/corridos,tumbados?lock=11" alt="img 12">
+          </a>
+        </td>
+      </tr>
+      <!-- Fila 3 -->
+      <tr>
+        <!-- Link 12: Video D -->
+        <td>
+          <a href="https://www.youtube.com/watch?v=hkrBbBJg3S4" target="_blank">
+            <img src="https://loremflickr.com/800/800/corridos,tumbados?lock=12" alt="img 13">
+          </a>
+        </td>
+        <!-- Link 13: Video A (rowspan="4") -->
+        <td rowspan="4">
+          <a href="https://www.youtube.com/watch?v=xGI3ky4kLwE" target="_blank">
+            <img src="https://loremflickr.com/800/800/corridos,tumbados?lock=13" alt="img 14">
+          </a>
+        </td>
+        <!-- Link 14: Video B (colspan="2" rowspan="2") -->
+        <td colspan="2" rowspan="2">
+          <a href="https://www.youtube.com/watch?v=bvs-W9fUMjA" target="_blank">
+            <img src="https://loremflickr.com/800/800/corridos,tumbados?lock=14" alt="img 15">
+          </a>
+        </td>
+        <!-- Link 15: Video C -->
+        <td>
+          <a href="https://www.youtube.com/watch?v=rIASYajEwcU" target="_blank">
+            <img src="https://loremflickr.com/800/800/corridos,tumbados?lock=15" alt="img 18">
+          </a>
+        </td>
+      </tr>
+      <!-- Fila 4 -->
+      <tr>
+        <!-- Link 16: Video D -->
+        <td>
+          <a href="https://www.youtube.com/watch?v=hkrBbBJg3S4" target="_blank">
+            <img src="https://loremflickr.com/800/800/corridos,tumbados?lock=16" alt="img 19">
+          </a>
+        </td>
+        <!-- Link 17: Video A -->
+        <td>
+          <a href="https://www.youtube.com/watch?v=xGI3ky4kLwE" target="_blank">
+            <img src="https://loremflickr.com/800/800/corridos,tumbados?lock=17" alt="img 23">
+          </a>
+        </td>
+        <!-- Link 18: Video B -->
+        <td>
+          <a href="https://www.youtube.com/watch?v=bvs-W9fUMjA" target="_blank">
+            <img src="https://loremflickr.com/800/800/corridos,tumbados?lock=18" alt="img 24">
+          </a>
+        </td>
+      </tr>
+      <!-- Fila 5 -->
+      <tr>
+        <!-- Link 19: Video C -->
+        <td>
+          <a href="https://www.youtube.com/watch?v=rIASYajEwcU" target="_blank">
+            <img src="https://loremflickr.com/800/800/corridos,tumbados?lock=19" alt="img 26">
+          </a>
+        </td>
+        <!-- Link 20: Video D -->
+        <td>
+          <a href="https://www.youtube.com/watch?v=hkrBbBJg3S4" target="_blank">
+            <img src="https://loremflickr.com/800/800/corridos,tumbados?lock=20" alt="img 27">
+          </a>
+        </td>
+        <!-- Link 21: Video A -->
+        <td>
+          <a href="https://www.youtube.com/watch?v=xGI3ky4kLwE" target="_blank">
+            <img src="https://loremflickr.com/800/800/corridos,tumbados?lock=21" alt="img 28">
+          </a>
+        </td>
+        <!-- Link 22: Video B (colspan="2") -->
+        <td colspan="2">
+          <a href="https://www.youtube.com/watch?v=bvs-W9fUMjA" target="_blank">
+            <img src="https://loremflickr.com/800/800/corridos,tumbados?lock=22" alt="img 29">
+          </a>
+        </td>
+      </tr>
+      <!-- Fila 6 -->
+      <tr>
+        <!-- Link 23: Video C -->
+        <td>
+          <a href="https://www.youtube.com/watch?v=rIASYajEwcU" target="_blank">
+            <img src="https://loremflickr.com/800/800/corridos,tumbados?lock=23" alt="img 31">
+          </a>
+        </td>
+        <!-- Link 24: Video D (colspan="4") -->
+        <td colspan="4">
+          <a href="https://www.youtube.com/watch?v=hkrBbBJg3S4" target="_blank">
+            <img src="https://loremflickr.com/800/800/corridos,tumbados?lock=24" alt="img 32">
+          </a>
+        </td>
+      </tr>
+      <!-- Fila 7 -->
+      <tr>
+        <!-- Link 25: Video A (colspan="2") -->
+        <td colspan="2">
+          <a href="https://www.youtube.com/watch?v=xGI3ky4kLwE" target="_blank">
+            <img src="https://loremflickr.com/800/800/corridos,tumbados?lock=25" alt="img 37">
+          </a>
+        </td>
+        <!-- Link 26: Video B -->
+        <td>
+          <a href="https://www.youtube.com/watch?v=bvs-W9fUMjA" target="_blank">
+            <img src="https://loremflickr.com/800/800/corridos,tumbados?lock=26" alt="img 39">
+          </a>
+        </td>
+        <!-- Link 27: Video C -->
+        <td>
+          <a href="https://www.youtube.com/watch?v=rIASYajEwcU" target="_blank">
+            <img src="https://loremflickr.com/800/800/corridos,tumbados?lock=27" alt="img 40">
+          </a>
+        </td>
+        <!-- Link 28: Video D -->
+        <td>
+          <a href="https://www.youtube.com/watch?v=hkrBbBJg3S4" target="_blank">
+            <img src="https://loremflickr.com/800/800/corridos,tumbados?lock=28" alt="img 41">
+          </a>
+        </td>
+        <!-- Link 29: Video A -->
+        <td>
+          <a href="https://www.youtube.com/watch?v=xGI3ky4kLwE" target="_blank">
+            <img src="https://loremflickr.com/800/800/corridos,tumbados?lock=29" alt="img 42">
+          </a>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</body>
+</html>
